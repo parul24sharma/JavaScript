@@ -1,0 +1,33 @@
+Date : 17 may 2020
+Questions :
+
+1) Should we use input or button for reset and submit purposes?
+we can use any tag, but its type is very important
+e.g. <input type="submit" />				correct
+	 <button type="reset">Reset</button>	correct
+2) value attribute of button does not work
+because its syntax is different from input
+3) can we define variables in html css
+yes
+4) can we drop label tag, and name labels directly?
+no lable has many advantages, use Label 
+
+
+Concepts :
+
+1) variable names : camelCase  (JS)
+2) function names : camelCase() ,with brackets
+3) constant Literals : UPPER_CASE (JS)
+4) objects : CapitalLetter = {}; (JS)
+
+html/css: class/variable names : name-secondname , seperated by -
+
+Learnings : 
+
+1) Always close preclosed tags like <input />, <br /> etc.
+2) 'type' in button is very important to mention, reset type does reset function, submit type submits the form.
+3) label is important beacause it gives extra active area for the user, to make interaction easy
+	label 'for' attribute refers to the input element with the use of input element's id attribute
+	i.e. label.for = input.id;
+4) use the script  tag in the end
+Date : 18 May 2020
