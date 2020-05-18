@@ -30,4 +30,12 @@ Learnings :
 	label 'for' attribute refers to the input element with the use of input element's id attribute
 	i.e. label.for = input.id;
 4) use the script  tag in the end
+5) we provide id and class to submit buttons, in order to identify, which form got submitted among many form in a website?
+6) to prevent form from getting submitted use return false on 'onclick' property.
+
 Date : 18 May 2020
+
+1) html dom have elements as nodes to copy any html code and paste somewhere else, we use
+	let node = document.querySelector("#id-name");
+	let nodeCopy = node.cloneNode(true); // makes copy of that chunck of html code
+	document.querySelector(".add-here").appendChild(nodeCopy); //append inside the selected element at the end.
